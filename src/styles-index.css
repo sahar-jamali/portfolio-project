@@ -1,12 +1,13 @@
 :root {
   --first-color: #d4e0f5;
   --second-color: #1f3d6b;
-  --first-font:
+  --first-font: "Playfair Display", serif;
+  --second-font: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-    background-color: var(--first-color);
+  background-color: var(--first-color);
 }
 
 h1,
