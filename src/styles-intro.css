@@ -1,0 +1,78 @@
+:root {
+  --first-color: #4c4c4c;
+  --second-color: blue;
+  --third-color: #aab9f8;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 45px;
+  display: block;
+}
+h3 {
+  color: var(--first-color);
+  font-size: 25px;
+}
+p {
+  background: var(--third-color);
+  border-radius: 3px;
+  text-align: left;
+  text-justify: newspaper;
+  padding: 8px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.body-text {
+  margin: 60px auto;
+  max-width: 1200px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.home {
+  color: var(--second-color);
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.paragraphs {
+  display: flex;
+  margin: 20px 32px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  color: var(--second-color);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .img-fluid {
+    margin-bottom: 20px;
+  }
+}

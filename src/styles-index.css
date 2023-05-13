@@ -1,0 +1,93 @@
+:root {
+  --first-color: #d4e0f5;
+  --second-color: #1f3d6b;
+  --first-font:
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--first-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  color: var(--first-color);
+  font-size: 25px;
+}
+
+.body-text {
+  margin: 60px auto;
+}
+
+.introduce {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.introduce a {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--second-color);
+  color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  border-color: var(--second-color);
+  color: var(--second-color);
+}
+.container {
+  max-width: 1200px;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--second-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .mobile-link {
+    display: block;
+    text-align: center;
+    margin: 0 30px;
+  }
+}
