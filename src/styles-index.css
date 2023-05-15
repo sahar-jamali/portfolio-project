@@ -51,10 +51,12 @@ p {
   color: white;
   font-size: 20px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 19px 0px;
   margin: 20px 0px;
   margin-bottom: 70px;
   box-shadow: var(--box-shadow);
+  width: 285px;
+  height: 64px;
 }
 
 .sahar-pic {
@@ -82,17 +84,15 @@ p {
   list-style: none;
   padding-left: 0px;
 }
-.primary-link {
-  border-radius: 4px;
-  padding: 15px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--second-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+
+.col-10 {
+  line-height: 30px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
+  body {
+    margin: 10px 20px;
+  }
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -102,14 +102,28 @@ p {
     font-size: 32px;
     text-align: center;
   }
-
   p {
     text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
   }
-
-  .mobile-link {
-    display: block;
-    text-align: center;
-    margin: 0 30px;
+  .container {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 25px;
+  }
+  .titleOfParagraph {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .btn-primary {
+    margin: 0px auto;
+  }
+  .content {
+    margin-bottom: 0px;
+  }
+  .experience {
+    margin-bottom: 0px;
   }
 }
