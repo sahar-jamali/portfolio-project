@@ -61,7 +61,7 @@ a {
   height: 64px;
 }
 
-.sahar-pic {
+.general-pic {
   margin: 0px auto;
   box-shadow: var(--box-shadow);
 }
@@ -161,6 +161,10 @@ footer .social-links a:hover {
 }
 .logo {
   padding: 10px;
+}
+
+.look-works {
+  margin-top: 60px;
 }
 
 @media (max-width: 900px) {
