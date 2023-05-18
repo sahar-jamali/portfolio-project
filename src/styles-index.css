@@ -124,25 +124,43 @@ a {
 .contact-section h3 {
   font-size: 32px;
 }
+.contact-section {
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 74px;
+}
+
+i .header {
+  color: #1f3d6b;
+  font-size: 32px;
+}
 
 footer {
-  margin: 60px 0;
+  color: var(--second-color);
+  margin-top: 30px;
   background-color: white;
 }
 
+footer .copy-right {
+  font-size: 10px;
+}
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 footer .social-links a {
-  margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 10px 14px;
+  padding: 11px 11px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--branding-color);
+  color: #0d6efd;
+  background: var(--first-color);
+}
+.logo {
+  padding: 10px;
 }
 
 @media (max-width: 900px) {
@@ -192,6 +210,10 @@ footer .social-links a:hover {
     margin: 20px auto;
     text-align: center;
   }
+  .sahar-about-pic {
+    margin: 0px auto;
+    margin-top: 60px;
+  }
   .contact-section h3 {
     font-size: 20px;
     font-weight: 600;
@@ -201,5 +223,13 @@ footer .social-links a:hover {
   }
   .contact-section h2 {
     margin-top: 60px;
+  }
+  footer {
+    margin-top: 60px;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
   }
 }
