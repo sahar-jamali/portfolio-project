@@ -116,6 +116,12 @@ a {
   margin-top: 10px;
 }
 
+.italic-text {
+  font-style: italic;
+}
+.date {
+  font-size: 15px;
+}
 .link {
   font-family: var(--second-font);
   font-size: 20px;
